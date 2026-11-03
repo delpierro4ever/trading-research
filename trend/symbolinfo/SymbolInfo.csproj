@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net6.0</TargetFramework><AssemblyName>SymbolInfo</AssemblyName></PropertyGroup>
+  <ItemGroup><PackageReference Include="cTrader.Automate" Version="*" /></ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+{
+ "durability": {
+  "r5_gross_per_trade": {
+   "N": 103632,
+   "days": 365,
+   "mean": 0.32119122463015914,
+   "lo": 0.24004645681794906,
+   "hi": 0.403429910431989,
+   "p_one_sided_gt0": 0.0
+  },
+  "ladder_L5": {
+   "year": 2025,
+   "subset": "L==5",
+   "n": 1402633,
+   "R5": 0.0920165809727811,
+   "R10": 0.1750713441826507,
+   "R50": 0.5755421875004205,
+   "R100": 0.7868736238882704,
+   "R250": 0.9732835913430552,
+   "R300s": 0.9782427346138538
+  },
+  "ladder_monotone_5_to_250": true,
+  "durable": true
+ },
+ "primary_gate": {
+  "rule": "B1 under K2",
+  "trades": 0,
+  "trades_ge_100": false,
+  "mean_net_K2": null,
+  "p_one_sided": null,
+  "CI95": null,
+  "PASS": false
+ }
+}

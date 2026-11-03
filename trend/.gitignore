@@ -1,0 +1,4 @@
+symbolinfo/bin/
+symbolinfo/obj/
+__pycache__/
+*.pyc

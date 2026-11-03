@@ -1,0 +1,14 @@
+item,observed,archive
+2023 rows,752974771,752974771.0
+2023 anchors S1 (segment=UTC day),4058441,4058700.0
+2023 anchors S2 (segment=year),4058633,4058700.0
+2023 days,365,365.0
+2024 rows,551044283,551044283.0
+2024 anchors S1 (segment=UTC day),3253772,3254095.0
+2024 anchors S2 (segment=year),3254037,3254095.0
+2024 days,366,366.0
+all zip bytes,17717147907,17717147907.0
+dups,0,0.0
+id gaps within files,0,0.0
+unsorted/non-monotone files,0,0.0
+files with us timestamps,0,

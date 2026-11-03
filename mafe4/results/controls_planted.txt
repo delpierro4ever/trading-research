@@ -1,0 +1,2 @@
+PLANTED baseline: n=59 mean gross=6.68 bps CI[-7.33,19.59] one-sided p(gross<=0)=0.1655
+PLANTED planted+20bps: n=59 mean gross=26.70 bps CI[12.66,39.62] one-sided p(gross<=0)=0.0007

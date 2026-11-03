@@ -1,0 +1,80 @@
+{
+  "preregistration_sha256": "5f503bf8636151b0e837d21586c018e21012a62be80d55c881fdb4643e40a234",
+  "prereg_expected_sha256": "5f503bf8636151b0e837d21586c018e21012a62be80d55c881fdb4643e40a234",
+  "git_parent_commit": "3ce365c61248e2956efc04ad25bc50a193c457a5",
+  "code_sha256": {
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "build_parquet.py": "896073eba220aee03f243e970dfe72aa968eed2006b0f7799ffaf7ee8f9d4e74",
+    "checks.py": "34b40c5c8320e3d9d764d2774c10658931dc95394a597cc369b0ee449e928605",
+    "data.py": "7a44e482e422eb5a7eacd75145ffc65941faba019b4a3cf903343c4569b0a04c",
+    "download_histdata.py": "458f5324c6a1657964c787b0d05d811d38c777ec1987c6557e4d049dea39d5f4",
+    "engine.py": "a1f279e09ffe3e11c2294e74e1ada0f35bceafb8527ab6c909b48b8dde89b57c",
+    "make_report.py": "d8891926c14dcc1833f0df9b0e4c9b216b29c9e71623e4a43412d33762f298e7",
+    "manifest.py": "a2ff9351a0413148e9c7d032524edbb001dd868cc58d7bdfcb92a40da8a58e94",
+    "market.py": "ae0cb039cd608439d5d208e301f0bcff4e34e814370741b27f1130245861b02a",
+    "run_discovery.py": "4d2cf3a9682150bb7a01780165bf3242d8084376fe6fba285618edf68cabd85b",
+    "run_validation.py": "e4b694f9c5a1e2abb1417533fa36442b962b80875644d1812d55253f94e2f42d",
+    "signals.py": "6791c8ce5c07f7198f3a7e25e6b876ffa53f4fe3f83cc7543e61907f6adf002d",
+    "spread_check.py": "f472c1eb70e0b9c8df64473e79df86c3645caa89d8e3f026442050748cae1ce6"
+  },
+  "window": "entries [2020-01-01, 2023-01-01), exit < 2023-01-01; warm-up from 2019-11-01",
+  "K": 10,
+  "advanced_ids": [
+    "G2_dow_fri"
+  ],
+  "overall_PASS": [],
+  "verdicts": {
+    "G2_dow_fri": {
+      "PASS": false,
+      "binding_rule": "one-sided p < 0.05/K = 0.005 (K=10 registered cap) AND >=2 of 3 years net>0 AND drift gate (4)",
+      "n": 151,
+      "mean_gross_bps": 3.8759394780301135,
+      "mean_cost_bps": 1.962971983334755,
+      "mean_swap_bps": 1.1655629139072847,
+      "mean_net_bps": 0.747404580788076,
+      "mean_net_c20_noswap": 2.754241201838825,
+      "mean_net_c35_noswap": 1.9129674946953605,
+      "mean_net_c60_noswap": 0.5108446494562475,
+      "t_net": 0.09278256797531438,
+      "p_net_1s": 0.4631000529547063,
+      "p_boot_weekly_block": 0.47165283471652836,
+      "per_year": {
+        "2020": {
+          "n": 50,
+          "gross": 5.92305616821212,
+          "net": 2.810590418886774
+        },
+        "2021": {
+          "n": 50,
+          "gross": -2.6632769549773783,
+          "net": -5.809896440892776
+        },
+        "2022": {
+          "n": 51,
+          "gross": 8.279958833741379,
+          "net": 5.1533998588097925
+        }
+      },
+      "years_positive": 2,
+      "drift_hmatch": 1.5163091328517249,
+      "drift_24h": 1.7214439299841138,
+      "gross_minus_drift_hmatch": 2.3596303451783887,
+      "gross_minus_drift_24h": 2.1544955480459995,
+      "directionally_biased": true,
+      "gate_p_strict": false,
+      "gate_years": true,
+      "gate_drift": true,
+      "lenient_K1_NONBINDING": {
+        "threshold": 0.05,
+        "p_gate": false,
+        "would_pass": false
+      }
+    }
+  },
+  "controls": {
+    "count": true,
+    "positive_control": true,
+    "negative_control": true
+  },
+  "runtime_seconds": 0.6
+}

@@ -1,0 +1,63 @@
+{
+  "preregistration_sha256": "85f65b98645554055a0a435d7cd4e6f8f68405c18efc52fc84299f213c5a18a2",
+  "prereg_expected_sha256": "85f65b98645554055a0a435d7cd4e6f8f68405c18efc52fc84299f213c5a18a2",
+  "git_parent_commit_of_code": "e18a93ed70123e81d1d5e36249850bbe396571d3",
+  "code_sha256": {
+    "code/mafe2/__init__.py": "be731be9882ac893bbe5708d6b1516f200700217908a54f5c3046374bbc23aff",
+    "code/mafe2/data.py": "fb1394c6309bf1ae3bb1a4e66049bbd60fdef769b8c13c189b4906497db8848f",
+    "code/mafe2/engine.py": "8b7e5883265aead042b84ff0c2c1cd67aa5d0d3b42a377d91b737e31fc6ba1ee",
+    "code/mafe2/features.py": "1d9efb3de8e9536879038419cde574533b4fc3e02b96bf2f644e0aae25a3cc72",
+    "code/mafe2/pipeline.py": "6f95539253c376d1f093b74963e943ee9a6e0646a5195ffae34a7adc29e6afb8",
+    "code/mafe2/run_discovery.py": "117477ab487adc79f0a1af4aec04ce503dffc4c83c694efabc973b46310d8e7c",
+    "code/mafe2/stats.py": "c6474552e391861e6d4bd5b193114dcbfc5b414b0a569fd9724c7289c16c19b7",
+    "code/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "code/tests/run_checks.py": "7352381c14e0f305336e0c1f7b22b5e31c192cb9ccebab30d680bc8dde46998f"
+  },
+  "gate1_mode": "NEAR_MISS",
+  "n_bh_net12_q10": 0,
+  "n_bh_gross_q05": 18,
+  "n_gate1_candidates": 5,
+  "n_pass_gates_2_4": 4,
+  "K": 10,
+  "advanced": [
+    {
+      "id": "F4_L4h_H24h_R",
+      "label": "NEAR_MISS",
+      "n": 533,
+      "mean_net12": 41.272926217282574,
+      "t_net12": 2.7155088079769416,
+      "p_net12_1s": 0.0034162576723128467
+    },
+    {
+      "id": "F6_top_H24h_R",
+      "label": "NEAR_MISS",
+      "n": 329,
+      "mean_net12": 49.440142263199995,
+      "t_net12": 2.389054622995997,
+      "p_net12_1s": 0.008728260396777328
+    },
+    {
+      "id": "F6_glob_H24h_R",
+      "label": "NEAR_MISS",
+      "n": 432,
+      "mean_net12": 43.43561654448145,
+      "t_net12": 2.3383122977164783,
+      "p_net12_1s": 0.009913741693368582
+    },
+    {
+      "id": "F4_L1h_H24h_R",
+      "label": "NEAR_MISS",
+      "n": 651,
+      "mean_net12": 29.800240015142318,
+      "t_net12": 2.118595560605007,
+      "p_net12_1s": 0.01725169973731634
+    }
+  ],
+  "advanced_ids": [
+    "F4_L4h_H24h_R",
+    "F6_top_H24h_R",
+    "F6_glob_H24h_R",
+    "F4_L1h_H24h_R"
+  ],
+  "runtime_seconds": 12.5
+}

@@ -1,0 +1,63 @@
+{
+  "hypothesis_count": 139,
+  "hypothesis_count_pass": true,
+  "lookahead_BTCUSDT": {
+    "n_points": 40,
+    "feature_checks": 720,
+    "mismatches": [],
+    "n_mismatches": 0,
+    "sensitivity_changed_when_cut_tightened": "617/617",
+    "pass": true
+  },
+  "positive_control": {
+    "n": 2585,
+    "mean_gross_bps": 166.22949902520995,
+    "mean_net12_bps": 154.25277051457167,
+    "pass": true
+  },
+  "negative_controls": {
+    "noise_H1h": {
+      "n_total": 81983,
+      "mean_gross": 0.0953537630313196,
+      "se_gross": 0.2587414116361306,
+      "mean_funding": 0.0006360074649618034,
+      "mean_net12": -11.904010229503717,
+      "expected_net_if_gross_zero": -11.999363992535038
+    },
+    "noise_H4h": {
+      "n_total": 60497,
+      "mean_gross": 0.3862667113477528,
+      "se_gross": 0.5891574654899921,
+      "mean_funding": 0.0031425078929529313,
+      "mean_net12": -11.610590780759296,
+      "expected_net_if_gross_zero": -11.996857492107047
+    },
+    "noise_H24h": {
+      "n_total": 21978,
+      "mean_gross": -1.0365384655094227,
+      "se_gross": 2.397092327549394,
+      "mean_funding": -0.04288197288197432,
+      "mean_net12": -13.079420438391395,
+      "expected_net_if_gross_zero": -12.042881972881974
+    },
+    "random_sign_at_F1_1h_fire_times_H1h": {
+      "n_total": 52700,
+      "mean_gross": 0.41147051728411804,
+      "se_gross": 0.4755167509108921,
+      "mean_funding": 0.005887810246680186,
+      "mean_net12": -11.582641672469205
+    },
+    "firing_rate_F1_1h_real": 0.09060574948665298,
+    "firing_rate_noise": 0.13415468856947296,
+    "pass": true
+  },
+  "lookahead_ETHUSDT": {
+    "n_points": 40,
+    "feature_checks": 720,
+    "mismatches": [],
+    "n_mismatches": 0,
+    "sensitivity_changed_when_cut_tightened": "599/599",
+    "pass": true
+  },
+  "all_pass": true
+}

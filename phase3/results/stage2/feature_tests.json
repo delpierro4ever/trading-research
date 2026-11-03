@@ -1,0 +1,410 @@
+{
+ "lookahead": {
+  "cutoffs": [
+   1389024300,
+   1389286500,
+   1389612600,
+   1391723400,
+   1389281400,
+   1391697300,
+   1389133200,
+   1388964000
+  ],
+  "mismatch": [],
+  "sens_changed": 174,
+  "sens_total": 272,
+  "pass": true
+ },
+ "shape_nan_2010": {
+  "n_rows": 72124,
+  "n_features": 38,
+  "n_nontime": 34,
+  "window": [
+   "2010-01-01 00:00:00+00:00",
+   "2011-01-01 00:00:00+00:00"
+  ],
+  "per_feature": {
+   "d_body1": {
+    "concept": "Displacement",
+    "nan_frac": 0.0302,
+    "raw_mean": -0.0014,
+    "z_mean": 0.0,
+    "z_std": 1.0,
+    "z_min": -12.9,
+    "z_max": 12.4,
+    "inf": 0
+   },
+   "d_maxb15": {
+    "concept": "Displacement",
+    "nan_frac": 0.0369,
+    "raw_mean": 0.0139,
+    "z_mean": 0.001,
+    "z_std": 1.001,
+    "z_min": -6.34,
+    "z_max": 7.64,
+    "inf": 0
+   },
+   "d_maxb60": {
+    "concept": "Displacement",
+    "nan_frac": 0.0302,
+    "raw_mean": 0.0211,
+    "z_mean": 0.003,
+    "z_std": 1.004,
+    "z_min": -4.63,
+    "z_max": 5.37,
+    "inf": 0
+   },
+   "d_r5s60": {
+    "concept": "Displacement",
+    "nan_frac": 0.0352,
+    "raw_mean": 0.0082,
+    "z_mean": 0.001,
+    "z_std": 0.998,
+    "z_min": -8.51,
+    "z_max": 6.4,
+    "inf": 0
+   },
+   "s_5": {
+    "concept": "Speed",
+    "nan_frac": 0.0341,
+    "raw_mean": 0.0068,
+    "z_mean": 0.001,
+    "z_std": 0.999,
+    "z_min": -8.1,
+    "z_max": 8.57,
+    "inf": 0
+   },
+   "s_15": {
+    "concept": "Speed",
+    "nan_frac": 0.0389,
+    "raw_mean": 0.0123,
+    "z_mean": 0.002,
+    "z_std": 0.999,
+    "z_min": -6.79,
+    "z_max": 6.01,
+    "inf": 0
+   },
+   "s_30": {
+    "concept": "Speed",
+    "nan_frac": 0.046,
+    "raw_mean": 0.0188,
+    "z_mean": 0.003,
+    "z_std": 0.999,
+    "z_min": -5.92,
+    "z_max": 5.4,
+    "inf": 0
+   },
+   "s_60": {
+    "concept": "Speed",
+    "nan_frac": 0.0503,
+    "raw_mean": 0.0303,
+    "z_mean": 0.005,
+    "z_std": 0.999,
+    "z_min": -5.11,
+    "z_max": 4.57,
+    "inf": 0
+   },
+   "s_acc": {
+    "concept": "Speed",
+    "nan_frac": 0.0481,
+    "raw_mean": -0.0119,
+    "z_mean": -0.002,
+    "z_std": 0.999,
+    "z_min": -5.65,
+    "z_max": 5.81,
+    "inf": 0
+   },
+   "s_up15": {
+    "concept": "Speed",
+    "nan_frac": 0.0153,
+    "raw_mean": 0.463,
+    "z_mean": -0.008,
+    "z_std": 1.003,
+    "z_min": -3.79,
+    "z_max": 4.28,
+    "inf": 0
+   },
+   "s_up60": {
+    "concept": "Speed",
+    "nan_frac": 0.0302,
+    "raw_mean": 0.4632,
+    "z_mean": -0.016,
+    "z_std": 1.01,
+    "z_min": -4.99,
+    "z_max": 3.68,
+    "inf": 0
+   },
+   "c_rng": {
+    "concept": "Compression",
+    "nan_frac": 0.0613,
+    "raw_mean": 0.228,
+    "z_mean": -0.001,
+    "z_std": 1.004,
+    "z_min": -1.51,
+    "z_max": 6.13,
+    "inf": 0
+   },
+   "c_volr": {
+    "concept": "Compression",
+    "nan_frac": 0.0451,
+    "raw_mean": 0.9545,
+    "z_mean": 0.0,
+    "z_std": 1.003,
+    "z_min": -2.31,
+    "z_max": 4.8,
+    "inf": 0
+   },
+   "c_inside30": {
+    "concept": "Compression",
+    "nan_frac": 0.0376,
+    "raw_mean": 6.6651,
+    "z_mean": 0.008,
+    "z_std": 1.005,
+    "z_min": -3.26,
+    "z_max": 4.3,
+    "inf": 0
+   },
+   "c_loc60": {
+    "concept": "Compression",
+    "nan_frac": 0.0327,
+    "raw_mean": 0.5173,
+    "z_mean": 0.002,
+    "z_std": 0.998,
+    "z_min": -1.9,
+    "z_max": 1.75,
+    "inf": 0
+   },
+   "c_loc60c": {
+    "concept": "Compression",
+    "nan_frac": 0.0637,
+    "raw_mean": 0.1043,
+    "z_mean": 0.002,
+    "z_std": 1.005,
+    "z_min": -0.51,
+    "z_max": 4.37,
+    "inf": 0
+   },
+   "a_uw15": {
+    "concept": "Absorption",
+    "nan_frac": 0.0153,
+    "raw_mean": 0.1998,
+    "z_mean": 0.004,
+    "z_std": 1.006,
+    "z_min": -2.99,
+    "z_max": 6.84,
+    "inf": 0
+   },
+   "a_lw15": {
+    "concept": "Absorption",
+    "nan_frac": 0.0153,
+    "raw_mean": 0.1996,
+    "z_mean": -0.001,
+    "z_std": 1.004,
+    "z_min": -2.97,
+    "z_max": 6.21,
+    "inf": 0
+   },
+   "a_uw60": {
+    "concept": "Absorption",
+    "nan_frac": 0.0302,
+    "raw_mean": 0.1985,
+    "z_mean": 0.009,
+    "z_std": 1.01,
+    "z_min": -4.19,
+    "z_max": 4.61,
+    "inf": 0
+   },
+   "a_lw60": {
+    "concept": "Absorption",
+    "nan_frac": 0.0302,
+    "raw_mean": 0.1988,
+    "z_mean": -0.0,
+    "z_std": 1.008,
+    "z_min": -4.19,
+    "z_max": 5.08,
+    "inf": 0
+   },
+   "a_th": {
+    "concept": "Absorption",
+    "nan_frac": 0.0789,
+    "raw_mean": 1.2256,
+    "z_mean": -0.002,
+    "z_std": 1.0,
+    "z_min": -0.58,
+    "z_max": 10.62,
+    "inf": 0
+   },
+   "a_tl": {
+    "concept": "Absorption",
+    "nan_frac": 0.0789,
+    "raw_mean": 0.9706,
+    "z_mean": -0.001,
+    "z_std": 1.009,
+    "z_min": -0.59,
+    "z_max": 9.3,
+    "inf": 0
+   },
+   "a_rej": {
+    "concept": "Absorption",
+    "nan_frac": 0.0789,
+    "raw_mean": 0.255,
+    "z_mean": -0.0,
+    "z_std": 0.999,
+    "z_min": -5.93,
+    "z_max": 7.67,
+    "inf": 0
+   },
+   "r_fail": {
+    "concept": "Reversal",
+    "nan_frac": 0.0526,
+    "raw_mean": -0.0092,
+    "z_mean": -0.001,
+    "z_std": 0.996,
+    "z_min": -2.56,
+    "z_max": 2.64,
+    "inf": 0
+   },
+   "r_v": {
+    "concept": "Reversal",
+    "nan_frac": 0.0473,
+    "raw_mean": 0.0043,
+    "z_mean": 0.0,
+    "z_std": 0.999,
+    "z_min": -2.93,
+    "z_max": 2.92,
+    "inf": 0
+   },
+   "l_pdh": {
+    "concept": "Location",
+    "nan_frac": 0.0327,
+    "raw_mean": -21.7219,
+    "z_mean": 0.018,
+    "z_std": 1.023,
+    "z_min": -7.4,
+    "z_max": 5.92,
+    "inf": 0
+   },
+   "l_pdl": {
+    "concept": "Location",
+    "nan_frac": 0.0327,
+    "raw_mean": 33.8682,
+    "z_mean": 0.016,
+    "z_std": 1.027,
+    "z_min": -4.32,
+    "z_max": 7.11,
+    "inf": 0
+   },
+   "l_pdc": {
+    "concept": "Location",
+    "nan_frac": 0.0327,
+    "raw_mean": 3.4725,
+    "z_mean": 0.016,
+    "z_std": 1.022,
+    "z_min": -7.78,
+    "z_max": 9.29,
+    "inf": 0
+   },
+   "l_open": {
+    "concept": "Location",
+    "nan_frac": 0.0327,
+    "raw_mean": 2.9697,
+    "z_mean": 0.021,
+    "z_std": 1.021,
+    "z_min": -7.98,
+    "z_max": 9.47,
+    "inf": 0
+   },
+   "l_twap": {
+    "concept": "Location",
+    "nan_frac": 0.0637,
+    "raw_mean": 2.2255,
+    "z_mean": 0.018,
+    "z_std": 1.014,
+    "z_min": -6.94,
+    "z_max": 5.19,
+    "inf": 0
+   },
+   "l_round": {
+    "concept": "Location",
+    "nan_frac": 0.0327,
+    "raw_mean": -0.3877,
+    "z_mean": 0.003,
+    "z_std": 1.023,
+    "z_min": -5.56,
+    "z_max": 5.29,
+    "inf": 0
+   },
+   "t_hsin": {
+    "concept": "Time",
+    "nan_frac": 0.0,
+    "raw_mean": 0.0144,
+    "z_mean": 0.014,
+    "z_std": 0.714,
+    "z_min": -1.0,
+    "z_max": 1.0,
+    "inf": 0
+   },
+   "t_hcos": {
+    "concept": "Time",
+    "nan_frac": 0.0,
+    "raw_mean": -0.0296,
+    "z_mean": -0.03,
+    "z_std": 0.699,
+    "z_min": -1.0,
+    "z_max": 1.0,
+    "inf": 0
+   },
+   "t_sess": {
+    "concept": "Time",
+    "nan_frac": 0.0,
+    "raw_mean": 1.0962,
+    "z_mean": 1.096,
+    "z_std": 1.307,
+    "z_min": -1.0,
+    "z_max": 3.0,
+    "inf": 0
+   },
+   "t_dow": {
+    "concept": "Time",
+    "nan_frac": 0.0,
+    "raw_mean": 2.0038,
+    "z_mean": 2.004,
+    "z_std": 1.439,
+    "z_min": 0.0,
+    "z_max": 6.0,
+    "inf": 0
+   },
+   "u_s15": {
+    "concept": "USD",
+    "nan_frac": 0.0234,
+    "raw_mean": -0.0052,
+    "z_mean": 0.003,
+    "z_std": 1.001,
+    "z_min": -6.22,
+    "z_max": 6.63,
+    "inf": 0
+   },
+   "u_s60": {
+    "concept": "USD",
+    "nan_frac": 0.0239,
+    "raw_mean": -0.0095,
+    "z_mean": 0.005,
+    "z_std": 1.002,
+    "z_min": -4.5,
+    "z_max": 4.77,
+    "inf": 0
+   },
+   "u_disp": {
+    "concept": "USD",
+    "nan_frac": 0.013,
+    "raw_mean": 0.0298,
+    "z_mean": 0.003,
+    "z_std": 1.0,
+    "z_min": -6.94,
+    "z_max": 7.91,
+    "inf": 0
+   }
+  },
+  "pass": true
+ }
+}

@@ -1,0 +1,43 @@
+{
+  "project": "MAFE",
+  "status": "Research concluded / archived - not promoted to live trading",
+  "archived_utc_date": "2026-09-27",
+  "historical_dataset": {
+    "venue": "Binance Spot",
+    "instrument": "BTCUSDT",
+    "source": "Binance public daily aggTrades archives",
+    "coverage_utc": ["2023-01-01", "2024-12-31"],
+    "daily_archives": 731,
+    "accepted_rows": 1304019054,
+    "rows_2023": 752974771,
+    "rows_2024": 551044283,
+    "compressed_bytes": 17717147907,
+    "contains_order_book_depth": false,
+    "contains_spread": false,
+    "contains_queue_position": false,
+    "contains_receive_latency": false
+  },
+  "partitions": {
+    "discovery": ["2023-01-01", "2024-01-01"],
+    "validation": ["2024-01-01", "2025-01-01"],
+    "final_test": "not reached"
+  },
+  "phase_a": {"hypotheses": 360, "bh_rejections_q05": 246, "promising": 44, "promoted": ["0056", "0073", "0093", "0113", "0133", "0278", "0285", "0292", "0325"]},
+  "phase_b": {"replicated_strong": 6, "replicated_moderate": 2, "failed": 0, "0056": "REPLICATED_STRONG"},
+  "phase_c_0056_event5_mean_bps": {"2023": 0.004084, "2024": 0.083021, "passes_1bps_friction": false},
+  "oracle_ceiling_spot_bps": {"h_300s": 15.25, "cost_floor": 21.03},
+  "paper_fixed_300s_usdm_btcusdt": {
+    "window_utc": ["2026-09-23T10:27Z", "2026-09-24T01:51Z"],
+    "qty_btc": 0.001,
+    "commission_bps_per_side": 1.0,
+    "slippage_bps": 0.05,
+    "branches": {
+      "100ms": {"trades": 182, "gross_usd": -0.22385, "net_usd": -3.48569393762595, "mean_net_usd": -0.01915216449245, "net_wins": 72},
+      "250ms": {"trades": 182, "gross_usd": 0.80265, "net_usd": -2.44919425860780, "mean_net_usd": -0.01345711131103, "net_wins": 83},
+      "500ms": {"trades": 182, "gross_usd": 2.24320, "net_usd": -1.00863974388750, "mean_net_usd": -0.00554197661477, "net_wins": 87}
+    },
+    "fee_share_of_cost": 0.947
+  },
+  "position_manager_vs_baseline_usd": {"100ms": 0.780091724390100, "250ms": -1.504655054252250, "500ms": -2.035781777017800},
+  "final_economic_conclusion": "No executable edge demonstrated; net expectancy negative in every executable test."
+}

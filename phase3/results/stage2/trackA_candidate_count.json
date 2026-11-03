@@ -1,0 +1,16 @@
+{
+ "kept_H": [
+  30,
+  60,
+  240
+ ],
+ "n_signal_masks": 2276,
+ "by_kind": {
+  "S": 68,
+  "P": 1936,
+  "C": 272
+ },
+ "n_horizons": 3,
+ "n_directions": 2,
+ "n_candidates": 13656
+}

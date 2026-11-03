@@ -1,0 +1,3 @@
+PERM seed=1: mean gross over cells=0.582 bps (max |cell gross|=69.42); cells p<0.05: 1/64; BH q<=0.10 discoveries: 1 (their n: [3]); among cells with n>=100: p<0.05 0/32, BH discoveries 0
+PERM seed=2: mean gross over cells=-0.298 bps (max |cell gross|=81.40); cells p<0.05: 0/64; BH q<=0.10 discoveries: 0 (their n: []); among cells with n>=100: p<0.05 0/32, BH discoveries 0
+PERM seed=3: mean gross over cells=3.128 bps (max |cell gross|=76.27); cells p<0.05: 5/64; BH q<=0.10 discoveries: 2 (their n: [3, 8]); among cells with n>=100: p<0.05 0/32, BH discoveries 0

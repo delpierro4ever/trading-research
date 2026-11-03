@@ -1,0 +1,178 @@
+{
+  "hypothesis": "S3_LONG_F4_L4h_XS",
+  "preregistration_sha256": "ced06b5e5b10c9b44f1609b088035e714cd5ee92bfc8ae7ef1c51aa37d844712",
+  "prereg_expected_sha256": "ced06b5e5b10c9b44f1609b088035e714cd5ee92bfc8ae7ef1c51aa37d844712",
+  "git_parent_commit_of_code": "7b18fdb3cb8ae7325d97ee310b6127549af9f0f2",
+  "code_sha256": {
+    "code/mafe2/__init__.py": "be731be9882ac893bbe5708d6b1516f200700217908a54f5c3046374bbc23aff",
+    "code/mafe2/data.py": "fb1394c6309bf1ae3bb1a4e66049bbd60fdef769b8c13c189b4906497db8848f",
+    "code/mafe2/engine.py": "8b7e5883265aead042b84ff0c2c1cd67aa5d0d3b42a377d91b737e31fc6ba1ee",
+    "code/mafe2/features.py": "1d9efb3de8e9536879038419cde574533b4fc3e02b96bf2f644e0aae25a3cc72",
+    "code/mafe2/make_report.py": "3ee284e292d71e52e669003cf9215f6780d3fb438e0634f94e118edf5f06b322",
+    "code/mafe2/pipeline.py": "6f95539253c376d1f093b74963e943ee9a6e0646a5195ffae34a7adc29e6afb8",
+    "code/mafe2/run_discovery.py": "117477ab487adc79f0a1af4aec04ce503dffc4c83c694efabc973b46310d8e7c",
+    "code/mafe2/run_stage3.py": "e47460cec36a5f417fb5eeb590c1c4ef881d53417ded77c7b6eeed9d12f70f3d",
+    "code/mafe2/run_validation.py": "ef4972d6c903c8c49076139ff2dbf3499e60f7a0977470e8e3eb640c751c5a56",
+    "code/mafe2/stats.py": "c6474552e391861e6d4bd5b193114dcbfc5b414b0a569fd9724c7289c16c19b7",
+    "code/ingest/convert.py": "b8e02cf913574deccf43dda9b9e3ae858aced3ba14d509d10231edf246159fbc",
+    "code/ingest/download.py": "c81e2ea9f042aa8fbaa78c67ed0875500b0449ed92cd017be0699aaff8dd3eab",
+    "code/ingest/gen_manifest.py": "1d6ef69f77682e5f25fbadd814136d5f155bebd1c376716d10324f7fa4d66abd",
+    "code/ingest/stage3_ingest.py": "9e0abfba92955e6d62073ea57a73ef76fafb74e9f1cf584ee7e03785419410b4",
+    "code/ingest/stage3_screen.py": "23dcd45ebcfb5a879666eb8c533044f6057fc785a1e142bd01f110a7285f3cf5"
+  },
+  "regression_check": {
+    "btc_full_path_n": 72,
+    "btc_full_path_mean_net12": 53.89210181319985,
+    "btc_light_path_n": 72,
+    "btc_light_path_mean_net12": 53.892101813199844,
+    "committed_validation_n": 72,
+    "committed_validation_mean_net12": 53.89210181319985,
+    "episodes_identical": true,
+    "pass": true
+  },
+  "symbols": [
+    "SOLUSDT",
+    "XRPUSDT",
+    "DOGEUSDT",
+    "BNBUSDT",
+    "LTCUSDT",
+    "MATICUSDT",
+    "BCHUSDT",
+    "LINKUSDT",
+    "AVAXUSDT",
+    "ADAUSDT",
+    "FILUSDT",
+    "1000SHIBUSDT",
+    "DYDXUSDT",
+    "MASKUSDT",
+    "FTMUSDT",
+    "GALAUSDT",
+    "ETCUSDT",
+    "LINAUSDT",
+    "DOTUSDT",
+    "NEARUSDT",
+    "EOSUSDT",
+    "CRVUSDT",
+    "SANDUSDT",
+    "ATOMUSDT",
+    "AXSUSDT"
+  ],
+  "gates": {
+    "a_pooled_net16_gt0_and_boot_p_lt_0.05": {
+      "mean_net16": -16.158006464558216,
+      "p_percentile": 0.7298,
+      "pass": false
+    },
+    "b_pooled_excess_gt0": {
+      "mean_excess": 15.788464189745717,
+      "pass": true
+    },
+    "c_breadth_ge_60pct": {
+      "n_eligible": 25,
+      "n_positive": 8,
+      "fraction": 0.32,
+      "pass": false
+    },
+    "d_years_positive_ge2_of_3": {
+      "positive_years": 1,
+      "per_year_mean_net16": {
+        "2022": -55.77855704388395,
+        "2023": 33.785361683576966,
+        "2024": -8.013069311831662
+      },
+      "pass": false
+    }
+  },
+  "verdict": "FAIL",
+  "diagnostics": {
+    "n_episodes": 5789,
+    "n_symbols_with_episodes": 25,
+    "n_symbols_ge10": 25,
+    "pooled_mean_gross": -3.43420375251817,
+    "pooled_mean_funding": 3.2761972879599512,
+    "pooled_mean_net16": -16.158006464558216,
+    "pooled_mean_net12": -12.158006464558216,
+    "pooled_mean_matched_drift": -19.222667942263882,
+    "pooled_mean_excess": 15.788464189745717,
+    "naive_t_net16": -2.022855861017826,
+    "naive_p_one_sided": 0.9784330515222789,
+    "boot_percentile_p": 0.7298,
+    "boot_percentile_95ci_mean_net16": [
+      -67.73311123927719,
+      32.38043851258528
+    ],
+    "boot_weeks_in_panel": 157,
+    "boot_centered_null_p_reported_only": 0.7563243675632437,
+    "excluding_top3_symbols": {
+      "top3": [
+        "1000SHIBUSDT",
+        "CRVUSDT",
+        "DOGEUSDT"
+      ],
+      "n": 5077,
+      "mean_net16": -22.960111581883396,
+      "boot_percentile_p": 0.8182
+    },
+    "equal_weight_per_week_mean_net16": 35.513160367869055,
+    "n_weeks_with_episodes": 157,
+    "distinct_entry_days": 928,
+    "top20_simultaneous_entry_days": {
+      "days": [
+        "2024-01-05",
+        "2024-04-12",
+        "2023-06-10",
+        "2024-01-03",
+        "2024-01-04",
+        "2024-04-14",
+        "2024-01-08",
+        "2024-04-13",
+        "2024-12-11",
+        "2024-12-14",
+        "2022-05-09",
+        "2022-08-21",
+        "2023-02-13",
+        "2023-06-11",
+        "2023-08-15",
+        "2024-04-19",
+        "2024-04-20",
+        "2024-04-21",
+        "2024-12-15",
+        "2022-08-19"
+      ],
+      "episodes_on_days": 457,
+      "share_of_episodes": 0.07894282259457593,
+      "mean_net16_on_days": -46.076292137524845,
+      "mean_net16_other_days": -13.59374229491348,
+      "max_entries_one_day": 25
+    },
+    "per_year": {
+      "2022": {
+        "n": 2298,
+        "mean_gross": -46.13658071664286,
+        "mean_net16": -55.77855704388395,
+        "mean_net12": -51.77855704388395,
+        "mean_excess": 9.01823571537753
+      },
+      "2023": {
+        "n": 1498,
+        "mean_gross": 46.33189532843679,
+        "mean_net16": 33.785361683576966,
+        "mean_net12": 37.785361683576966,
+        "mean_excess": 30.543680778723697
+      },
+      "2024": {
+        "n": 1993,
+        "mean_gross": 8.397429885358408,
+        "mean_net16": -8.013069311831662,
+        "mean_net12": -4.013069311831661,
+        "mean_excess": 12.504304924220918
+      }
+    }
+  },
+  "bootstrap": {
+    "B": 10000,
+    "seed": 20241,
+    "method": "percentile: share of resampled pooled means <= 0; whole ISO weeks (weeks with >=1 episode) resampled"
+  },
+  "runtime_seconds": 9.4
+}

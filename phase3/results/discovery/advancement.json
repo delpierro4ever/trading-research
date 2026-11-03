@@ -1,0 +1,40 @@
+{
+  "preregistration_sha256": "5f503bf8636151b0e837d21586c018e21012a62be80d55c881fdb4643e40a234",
+  "prereg_expected_sha256": "5f503bf8636151b0e837d21586c018e21012a62be80d55c881fdb4643e40a234",
+  "git_parent_commit": "a576f4bf6b1fef7293f593a4ecb9cd6466760772",
+  "code_sha256": {
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "build_parquet.py": "896073eba220aee03f243e970dfe72aa968eed2006b0f7799ffaf7ee8f9d4e74",
+    "checks.py": "34b40c5c8320e3d9d764d2774c10658931dc95394a597cc369b0ee449e928605",
+    "data.py": "7a44e482e422eb5a7eacd75145ffc65941faba019b4a3cf903343c4569b0a04c",
+    "download_histdata.py": "458f5324c6a1657964c787b0d05d811d38c777ec1987c6557e4d049dea39d5f4",
+    "engine.py": "a1f279e09ffe3e11c2294e74e1ada0f35bceafb8527ab6c909b48b8dde89b57c",
+    "make_report.py": "d8891926c14dcc1833f0df9b0e4c9b216b29c9e71623e4a43412d33762f298e7",
+    "manifest.py": "a2ff9351a0413148e9c7d032524edbb001dd868cc58d7bdfcb92a40da8a58e94",
+    "market.py": "94a798d22a294ad12ecf20db31e14cb95d9e27bbd6791a2ee4412b301dc63bd8",
+    "run_discovery.py": "4d2cf3a9682150bb7a01780165bf3242d8084376fe6fba285618edf68cabd85b",
+    "signals.py": "2b2bf3b61e5180e01c4aa4f332bf66dead401b84718c5c238abed1a863e1a62c",
+    "spread_check.py": "f472c1eb70e0b9c8df64473e79df86c3645caa89d8e3f026442050748cae1ce6"
+  },
+  "gate1_mode": "NEAR_MISS",
+  "n_hypotheses": 89,
+  "n_bh_net_q10": 0,
+  "n_bh_gross_q05": 4,
+  "n_gate1_candidates": 5,
+  "n_pass_gates_2_4": 1,
+  "K": 10,
+  "advanced": [
+    {
+      "id": "G2_dow_fri",
+      "label": "NEAR_MISS",
+      "n": 510,
+      "mean_net": 6.9269786923073475,
+      "t_net": 1.5767682843785815,
+      "p_net_1s": 0.057735062207578965
+    }
+  ],
+  "advanced_ids": [
+    "G2_dow_fri"
+  ],
+  "runtime_seconds": 23.7
+}

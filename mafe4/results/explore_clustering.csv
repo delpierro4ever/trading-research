@@ -1,0 +1,6 @@
+n_events,9423.0
+share_followed_by_another_event_within_60min_any_coin,0.5710040331139885
+n_event_days,1127.0
+share_events_on_top5pct_event_days,0.23941419929958613
+same_minute_multi_coin_share,0.11858251940896569
+share_events_in_burst_ge3_coins_within10min,0.22858962113976442

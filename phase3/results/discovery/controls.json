@@ -1,0 +1,93 @@
+{
+  "count": {
+    "n_hypotheses": 89,
+    "unique_ids": 89,
+    "by_family": {
+      "G1": 18,
+      "G2": 29,
+      "G3": 6,
+      "G4": 4,
+      "G5": 2,
+      "G6": 6,
+      "G7": 18,
+      "G8": 6
+    },
+    "expected_by_family": {
+      "G1": 18,
+      "G2": 29,
+      "G3": 6,
+      "G4": 4,
+      "G5": 2,
+      "G6": 6,
+      "G7": 18,
+      "G8": 6
+    },
+    "pass": true
+  },
+  "swap": {
+    "vectorised_equals_bruteforce": true,
+    "tue_to_thu_swap_bps": 8.0,
+    "pass": true
+  },
+  "weekend_rule": {
+    "fri_2030_1h": false,
+    "fri_1900_1h": true,
+    "mon_1000_1h": true,
+    "waived_ok": true,
+    "pass": true
+  },
+  "positive_control": {
+    "n": 28435,
+    "mean_gross_bps": 12.38437648233404,
+    "mean_abs_1h_return_bps": 12.718577296395905,
+    "mean_net_bps": 9.615798208231313,
+    "t_gross": 139.75761301578186,
+    "pass": true
+  },
+  "negative_control": {
+    "seeds": 20,
+    "mean_n": 9238.5,
+    "mean_gross_bps_avg": 0.02076162077827559,
+    "t_gross_per_seed": [
+      0.54,
+      2.71,
+      0.03,
+      0.26,
+      -0.29,
+      0.07,
+      -0.23,
+      -0.15,
+      1.24,
+      -0.51,
+      -1.83,
+      -0.29,
+      0.36,
+      -0.43,
+      -0.06,
+      -0.68,
+      -0.73,
+      0.17,
+      0.68,
+      1.11
+    ],
+    "frac_abs_t_gt_1.96": 0.05,
+    "mean_cost_bps": 2.6346033455207354,
+    "mean_swap_bps": 0.08845681834038643,
+    "mean_net_bps_avg": -2.702298543082846,
+    "max_abs_dev_net_vs_minus_cost_swap": 0.5620674297076813,
+    "pass": true
+  },
+  "lookahead": {
+    "cutoffs_checked": [
+      1332180000,
+      1461132000,
+      1333569600,
+      1519873200,
+      1435212000
+    ],
+    "mismatches": [],
+    "sensitivity_changed": 27,
+    "sensitivity_total": 30,
+    "pass": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+ "summary": {
+  "rows": 3,
+  "exact_equal": true,
+  "max_abs_diff": 0.0
+ },
+ "walkforward": {
+  "rows": 21,
+  "exact_equal": true,
+  "max_abs_diff": 0.0
+ }
+}

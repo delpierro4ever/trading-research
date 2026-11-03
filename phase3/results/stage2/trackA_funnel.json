@@ -1,0 +1,14 @@
+{
+ "n_candidates": 13656,
+ "n_with_n_ge_100": 13604,
+ "n_net35_pos": 128,
+ "min_p": 0.010674210366454877,
+ "n_bh": 0,
+ "n_bh_n100": 0,
+ "n_bh_n100_net50": 0,
+ "m_A": 0,
+ "B_threshold_p": null,
+ "n_pass_B": 0,
+ "n_after_collapse": 0,
+ "n_to_validation": 0
+}

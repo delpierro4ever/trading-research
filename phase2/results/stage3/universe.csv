@@ -1,0 +1,139 @@
+rank,symbol,vol2023_quote,months2023,listing_utc,window_start,window_end,prem_missing_frac,fund_missing_frac,kline_missing_frac,status,reason
+1,SOLUSDT,403089435152.11707,12,2020-09-14 07:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.0,0.00456,chosen,top-25 by 2023 quote volume
+2,XRPUSDT,296181991091.26776,12,2020-01-06 08:21:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.0,0.00456,chosen,top-25 by 2023 quote volume
+3,DOGEUSDT,189496310419.72473,12,2020-07-10 09:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00187,0.0,0.0,chosen,top-25 by 2023 quote volume
+4,BNBUSDT,146296443735.7785,12,2020-02-10 08:01:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,top-25 by 2023 quote volume
+5,LTCUSDT,139619188644.5796,12,2020-01-09 08:09:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.0,0.00456,chosen,top-25 by 2023 quote volume
+6,MATICUSDT,136606869962.6919,12,2020-10-22 07:01:00+00:00,2022-01-01 00:00:00+00:00,2024-09-11 09:43:00+00:00,0.00207,0.0,0.0,chosen,top-25 by 2023 quote volume
+7,BCHUSDT,123819101150.5921,12,2020-01-01 00:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,top-25 by 2023 quote volume
+8,LINKUSDT,116495801627.12645,12,2020-01-17 08:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,top-25 by 2023 quote volume
+9,AVAXUSDT,105456221412.33601,12,2020-09-23 07:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,top-25 by 2023 quote volume
+10,ADAUSDT,99309614224.40129,12,2020-01-31 08:01:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,top-25 by 2023 quote volume
+11,TRBUSDT,94019715347.7183,12,2020-09-03 07:01:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.14811,0.00456,excluded,premium missing 0.001 / funding missing 0.148; >0.10 over window
+12,FILUSDT,80772369617.30551,12,2020-10-16 06:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.00456,chosen,top-25 by 2023 quote volume
+13,1000SHIBUSDT,77519994924.9532,12,2021-05-10 17:37:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.0,0.0,chosen,top-25 by 2023 quote volume
+14,DYDXUSDT,73365627805.41571,12,2021-09-10 03:30:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,top-25 by 2023 quote volume
+15,MASKUSDT,72741591481.01,12,2021-08-27 03:30:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.0,0.00456,chosen,top-25 by 2023 quote volume
+16,FTMUSDT,72726120331.1783,12,2020-09-24 07:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.0,0.00456,chosen,top-25 by 2023 quote volume
+17,GALAUSDT,72302799784.18315,12,2021-09-18 03:30:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,top-25 by 2023 quote volume
+18,ETCUSDT,72086447346.04443,12,2020-01-16 08:01:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00187,0.0,0.0,chosen,top-25 by 2023 quote volume
+19,LINAUSDT,59670242900.65415,12,2021-03-19 07:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.0,0.00456,chosen,top-25 by 2023 quote volume
+20,DOTUSDT,57733801170.1895,12,2020-08-22 07:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,top-25 by 2023 quote volume
+21,NEARUSDT,51016640437.841995,12,2020-10-15 08:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.0,0.00456,chosen,top-25 by 2023 quote volume
+22,EOSUSDT,50293072456.3617,12,2020-01-08 08:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,top-25 by 2023 quote volume
+23,CRVUSDT,47920397701.806885,12,2020-09-01 07:01:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,top-25 by 2023 quote volume
+24,SANDUSDT,45806367920.70111,12,2021-01-25 07:00:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.0,0.00456,chosen,top-25 by 2023 quote volume
+25,ATOMUSDT,43777678163.861916,12,2020-02-07 12:11:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00095,0.0,0.0,chosen,top-25 by 2023 quote volume
+26,TOMOUSDT,42652227145.85431,12,2020-10-12 07:00:00+00:00,2022-01-01 00:00:00+00:00,2024-05-28 07:15:00+00:00,0.20618,0.0,0.0,excluded,premium missing 0.206 / funding missing 0.000; >0.10 over window
+27,AXSUSDT,38431530854.363,12,2020-11-20 07:04:00+00:00,2022-01-01 00:00:00+00:00,2025-01-01 00:00:00+00:00,0.00186,0.0,0.0,chosen,replacement for a higher-ranked symbol failing the >10% missing rule
+28,STORJUSDT,35231725181.9671,12,2020-09-16 07:03:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+29,MKRUSDT,35129604670.562195,12,2020-08-13 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+30,MANAUSDT,34894542045.0187,12,2021-03-15 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+31,BLZUSDT,34696603455.47035,12,2020-09-17 07:02:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+32,COMPUSDT,34516168510.77504,12,2020-06-30 09:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+33,RUNEUSDT,33485432758.983,12,2020-09-04 07:12:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+34,WAVESUSDT,33349125753.01427,12,2020-08-12 07:01:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+35,SXPUSDT,32439867209.003223,12,2020-07-21 09:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+36,MTLUSDT,28515342660.5859,12,2021-03-31 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+37,XLMUSDT,28382447812.11028,12,2020-01-20 08:03:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+38,GRTUSDT,27459677160.814297,12,2020-12-19 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+39,TRXUSDT,26213316465.99293,12,2020-01-15 08:05:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+40,UNFIUSDT,25938896874.739902,12,2021-02-19 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+41,ARPAUSDT,25783021525.24122,12,2021-10-19 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+42,SNXUSDT,25407955973.940697,12,2020-08-14 07:02:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+43,UNIUSDT,25284752635.998,12,2020-09-18 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+44,BAKEUSDT,25168867285.6717,12,2021-05-19 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+45,AAVEUSDT,25116453288.056,12,2020-10-16 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+46,STMXUSDT,24733916439.999798,12,2021-03-22 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+47,OCEANUSDT,23828992040.502144,12,2020-11-03 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+48,SUSHIUSDT,22502482595.9028,12,2020-09-04 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+49,LPTUSDT,21236317323.4699,12,2021-11-11 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+50,KAVAUSDT,20932338822.39996,12,2020-07-28 07:05:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+51,NEOUSDT,20280830270.935966,12,2020-02-17 08:45:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+52,CHZUSDT,19894564869.68168,12,2021-01-21 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+53,ICPUSDT,19399592838.361,12,2021-05-11 03:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+54,OGNUSDT,18315858026.1823,12,2021-04-01 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+55,ALPHAUSDT,18032499095.822792,12,2020-11-23 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+56,CTSIUSDT,17159040266.782501,12,2021-10-26 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+57,CELOUSDT,16916390357.523602,12,2021-09-27 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+58,HBARUSDT,16851291602.13074,12,2021-03-17 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+59,YFIUSDT,16785287585.584,12,2020-08-31 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+60,ZRXUSDT,16470942892.970541,12,2020-06-24 09:02:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+61,KNCUSDT,15942083594.672798,12,2020-06-22 08:54:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+62,ALGOUSDT,15916296961.216461,12,2020-06-16 09:01:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+63,ANKRUSDT,15872454482.12749,12,2021-01-26 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+64,EGLDUSDT,14437678494.965,12,2020-09-14 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+65,1INCHUSDT,14232669701.7643,12,2020-12-25 10:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+66,RLCUSDT,14006495321.17601,12,2020-07-31 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+67,BELUSDT,13965027784.6779,12,2020-11-18 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+68,FLMUSDT,13558882719.833801,12,2020-09-29 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+69,ZILUSDT,13511347516.91842,12,2020-06-18 09:01:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+70,C98USDT,13402065542.666,12,2021-08-24 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+71,RENUSDT,13036062404.521463,12,2020-10-13 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+72,OMGUSDT,12795292030.699348,12,2020-07-02 09:02:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+73,ENJUSDT,12782262397.7021,12,2020-09-29 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+74,AUDIOUSDT,12285177653.746798,12,2021-08-19 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+75,LITUSDT,12271785935.267698,12,2021-02-18 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+76,THETAUSDT,12077707080.8896,12,2020-05-27 08:01:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+77,SFPUSDT,11807365347.925201,12,2021-02-24 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+78,XMRUSDT,11174096640.69041,12,2020-02-03 08:03:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+79,ONTUSDT,11122642152.2182,12,2020-02-11 08:05:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+80,ROSEUSDT,11020361126.27284,12,2021-12-31 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+81,ICXUSDT,10894230166.775103,12,2020-09-15 06:59:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+82,XEMUSDT,10639375050.524498,12,2021-03-03 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+83,VETUSDT,10571914000.318201,12,2020-02-14 08:02:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+84,IOTAUSDT,10549400712.36474,12,2020-02-12 08:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+85,BANDUSDT,10529695839.031132,12,2020-07-29 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+86,PEOPLEUSDT,10355116793.473372,12,2021-12-24 04:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+87,SKLUSDT,10047201936.126541,12,2020-12-08 07:35:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+88,GTCUSDT,9945643551.4298,12,2021-06-11 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+89,1000XECUSDT,9689253807.180729,12,2021-09-17 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+90,ZECUSDT,9500856849.905792,12,2020-02-05 08:01:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+91,XTZUSDT,9393836519.2031,12,2020-02-06 08:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+92,KLAYUSDT,9390860848.87503,12,2021-10-12 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+93,LRCUSDT,9075197961.36388,12,2020-10-19 07:05:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+94,CELRUSDT,8990990967.99573,12,2021-03-29 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+95,DASHUSDT,8672942613.44087,12,2020-02-04 08:06:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+96,QTUMUSDT,8552756264.7231,12,2020-02-20 08:06:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+97,ARUSDT,7745846122.7838,12,2021-09-28 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+98,NKNUSDT,7557243218.300169,12,2021-04-09 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+99,KSMUSDT,7438321252.241,12,2020-10-14 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+100,HOTUSDT,7101093144.118902,12,2021-03-30 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+101,CHRUSDT,7044782255.374799,12,2021-03-12 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+102,ANTUSDT,6914041562.9962,12,2021-12-27 04:01:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+103,COTIUSDT,6885801564.738659,12,2021-03-10 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+104,ENSUSDT,6823968719.2773,12,2021-11-30 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+105,RSRUSDT,6695750342.529236,12,2020-10-19 07:05:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+106,ZENUSDT,6378539860.814701,12,2020-11-24 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+107,IOTXUSDT,6291179808.688841,12,2021-08-12 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+108,ONEUSDT,6249402424.24126,12,2021-03-18 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+109,ALICEUSDT,5860218266.898001,12,2021-03-16 03:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+110,BATUSDT,5551579807.5416,12,2020-02-13 08:05:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+111,IOSTUSDT,5368908241.908947,12,2020-02-21 08:05:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+112,ATAUSDT,5177269706.006499,12,2021-08-31 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+113,REEFUSDT,5117799287.261899,12,2021-02-22 07:08:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+114,DENTUSDT,4976551345.039281,12,2021-03-24 04:01:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+115,RVNUSDT,4714131661.2904,12,2021-02-23 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+116,BALUSDT,4039136129.9489994,12,2020-09-01 07:01:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+117,CTKUSDT,3103041509.7451,12,2020-11-19 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+118,DGBUSDT,2722115561.68505,12,2021-04-21 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+119,TLMUSDT,2457046265.4584,12,2021-07-16 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+120,HNTUSDT,1884541507.7889998,12,2020-09-28 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+121,BTCDOMUSDT,1825892223.7352998,12,2021-06-21 03:31:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+122,DEFIUSDT,1211166085.3574002,12,2020-08-28 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+123,AKROUSDT,0.0,0,2021-01-19 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+124,BTCSTUSDT,0.0,12,2021-03-04 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+125,BTSUSDT,0.0,12,2021-02-01 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+126,BTTUSDT,0.0,0,2021-04-06 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+127,BZRXUSDT,0.0,0,2020-09-05 03:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+128,CVCUSDT,0.0,12,2020-11-11 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+129,DODOUSDT,0.0,0,2021-02-19 13:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+130,DOTECOUSDT,0.0,0,2021-01-20 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+131,KEEPUSDT,0.0,0,2021-06-22 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+132,LENDUSDT,0.0,0,2020-07-23 09:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+133,LUNAUSDT,0.0,0,2021-01-28 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+134,NUUSDT,0.0,0,2021-10-21 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+135,RAYUSDT,0.0,12,2021-08-20 03:30:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+136,SCUSDT,0.0,12,2021-04-12 07:00:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+137,SRMUSDT,0.0,12,2020-09-05 02:01:00+00:00,,,,,,not_needed,ranked below the 25 chosen
+138,YFIIUSDT,0.0,0,2020-09-03 07:01:00+00:00,,,,,,not_needed,ranked below the 25 chosen
